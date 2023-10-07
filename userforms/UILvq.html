@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>Sent Data</h1>
+
+        <form action="/sendData" method="get">
+            <label for="txtNameEntry">Name :</label>
+            <input type="text" id="txtNameEntry" name="firstNAme" minlength="3" maxlength="30" placeholder="Your Name"
+                required><br>
+            <label for="txtSurNameEntry">Surname :</label>
+            <input type="text" id="txtSurNameEntry" name="SurName" minlength="3" maxlength="30"
+                placeholder="Your Surname" required><br>
+            <label for="txtComents">Comments:</label>
+            <textarea id="txtComents" name="comments" placeholder="Your Comments" rows="4" cols="15" minlength="3"
+                maxlength="3000"></textarea><br>
+            <input type="submit" value="send">
+            <input type="reset" value="Clear">
+
+        </form>
+    </body>
+
+</html>
